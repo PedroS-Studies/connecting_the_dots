@@ -22,5 +22,34 @@ The end product by connecting the dots and heterogeneous content would be a port
 
 ## User stories
 
+### As a recruiter:
 
+* As an interviewer, I wish to be able to browse the candidates personality, without passing for nosy to understand who I really have in front of me, to hire the right person.
+* As an interviewer, I want to be able get sidetracked from the strict job profile description given to me and go out of the box, to show my superiors that I’m capable of audacious decisions.
+* As a bored recruiter, I want to be distracted from my boring routines, to have a moment of fantasy.
+* As a serious recruiter, I want to receive inspiring short information to the point in my exploration, of this candidates soul to not feel guilty for allowing myself this moment of distraction.
 
+#### As the candidate
+
+* As the interviewee, I want the UI of the app be attractive and bespoke to the moment of the interview after reading the room, to ensure that the interviewer should not decline to look at the demo.
+* As candidate, I want the demo to take initiative if the interviewer stays stuck for too long a while.
+
+### As the administrator
+
+* As the administrator, I want to be able to set up different UI’s which can be changed in a swipe by the candidate to react after reading the room.
+* As the administrator, I want to be able to choose a layout for the presentation, to make the maximum impact with the easiest access.
+* As the administrator, I want to be able to select the content segment to feature in the presentation, to answer the requests of the recruiter
+* As the administrator, I want to be able to pick the information and content to be included in the segment, to only .
+* As the administrator, I want to be able to trace the breadcrumbs left by the recruiter, to gather insights about the questions raised by the presence of the candidate and the interests of the interview for a forthcoming other candidate or for the second interview of this candidate.
+* As administrator, I want to be able to record the comments of the interviewer, without him realising that I’m doing it, to analyse their comments, their voice and tone.
+* As the administrator, I want to be able to video record the face of the interviewee when they watch the demo.
+
+## UX and UI
+
+## Instructions for end users
+
+### Set up by the admin
+
+### Quick adjustment by the interviewee
+
+### Interviewer
