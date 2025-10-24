@@ -53,3 +53,11 @@ The end product by connecting the dots and heterogeneous content would be a port
 ### Quick adjustment by the interviewee
 
 ### Interviewer
+
+## Development
+
+### GitHub profiles
+
+Due to occasional issues with the IDE on my Desktop computer, I have used my secondary GitHub profile, PedroSv-bit for most of the development. The main repository is hosted on my Code Institute related profile.
+
+## Deployment
