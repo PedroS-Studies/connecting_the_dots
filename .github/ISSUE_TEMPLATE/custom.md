@@ -1,7 +1,7 @@
 ---
 name: Custom issue template
 about: Default User story template
-title: User Strory
+title: User Story
 labels: AWARDING BODY CRITERIA, Could have, Must have, Should have
 assignees: PedroS-Studies
 
