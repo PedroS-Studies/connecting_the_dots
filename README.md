@@ -46,6 +46,14 @@ The end product by connecting the dots and heterogeneous content would be a port
 
 ## UX and UI
 
+The user experience is expected to be highly different, whether the user is Admin or interviewee/interviewee. 
+
+The interviewee's intervention is expected to be merely accessory: if necessary, quick-adjust the UI for the interviewer and hand over the device.
+
+The device should preferably be a portable handheld device with a touch-screen. The end-use, i.e. the interviewer's actions are limited to standard browsing gesture and possibly bookmarking or sharing content.
+
+The administrator however will do the lionshare of the setting up of the device, using most of the features.
+
 ## Instructions for end users
 
 ### Set up by the admin
