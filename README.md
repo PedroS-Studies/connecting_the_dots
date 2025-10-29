@@ -66,9 +66,29 @@ Each preset will also be available in accessible, with large fonts, high contras
 
 The landing screen will preferably be with the minimum of unnecessary, distracting graphic elements, apart from a small profile picture of the candidate/interviewee.
 
-The recruiter's landing pages are each separate pages.
+The recruiter's landing pages are each separate pages with a different template depending of the content.
 
-The pages should be responsive to the recruiter's instinct to look at it in landscape or portrait, to their convenience.
+The pages should be responsive to the recruiter's instinct to look at it in landscape or portrait, to their convenience. Even if use on a laptop or a desktop computer can be considered, the presentation on mobile phone is not recommended.
+
+#### Wireframes for content related templates
+
+The main landing screen of each content has easy access to the out of the box career path connections. A discreet link at the top of the page allows access to the content, whereas scrolling down the page will provide thumbnails of the pages as well as a brief description.
+
+##### Fact-sheet template
+
+![Fact sheet template](assets/images/rm_wf_fact_sheet.png)
+
+##### Portfolio template
+
+![Portfolio template](assets/images/rm_wf_portfolio.png)
+
+##### Moodboard template
+
+![Moodboard template](assets/images/rm_wf_moodboard.png)
+
+##### Demo template
+
+![Demo template](assets/images/rm_wf_demo.png)
 
 ### Interviewee UI
 
