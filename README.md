@@ -54,6 +54,34 @@ The device should preferably be a portable handheld device with a touch-screen. 
 
 The administrator however will do the lionshare of the setting up of the device, using most of the features.
 
+### Interviewer UI
+
+The purpose of the application is to offer a fitting visual interface to the end-user - i.e. in this case the interviewer/recruiter.
+
+The only distracting element of the interface is the cookie menu asking whether the user wants to use accessible features.
+
+The choice of assets should be preset to what is expected by the administrator. Should the situation of the interview be dramatically different from the expected, the candidate may quickly adjust it to something more adequate or neutral on the index page.
+
+Each preset will also be available in accessible, with large fonts, high contrast and enhanced alt/aria features.
+
+The landing screen will preferably be with the minimum of unnecessary, distracting graphic elements, apart from a small profile picture of the candidate/interviewee.
+
+The recruiter's landing pages are each separate pages.
+
+The pages should be responsive to the recruiter's instinct to look at it in landscape or portrait, to their convenience.
+
+### Interviewee UI
+
+The access and quick changes interface is the only feature used by the interviewee. It's located on the index page.
+
+test
+
+### Administrator UI
+
+The administrator should check all the preset views both in normal and accessible set up.
+
+
+
 ## Instructions for end users
 
 ### Set up by the admin
