@@ -94,11 +94,11 @@ The main landing screen of each content has easy access to the out of the box ca
 
 The access and quick changes interface is the only feature used by the interviewee. It's located on the index page.
 
-test
+Since the application is online, the quick changes of interface can also be done from another device than the one the recruiter will be using, and could even be done in remote by the Admin. For this purpose, the index as well as the Admin interface should be responsive also on mobile phone displays.
 
 ### Administrator UI
 
-The administrator should check all the preset views both in normal and accessible set up.
+The administrator should check all the preset views both in the normal and the accessible set up.
 
 
 
@@ -117,3 +117,10 @@ The administrator should check all the preset views both in normal and accessibl
 Due to occasional issues with the IDE on my Desktop computer, I have used my secondary GitHub profile, PedroSv-bit for most of the development. The main repository is hosted on my Code Institute related profile.
 
 ## Deployment
+
+## Technologies
+
+- Balsamiq for Wireframes
+- MS Visio for Flowcharts
+- HTML
+- CSS
