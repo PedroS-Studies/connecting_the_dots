@@ -100,7 +100,13 @@ Since the application is online, the quick changes of interface can also be done
 
 The administrator should check all the preset views both in the normal and the accessible set up.
 
+### General UX 
 
+#### Flowchart User's journey
+
+![Flowchart of the users journey with the app](assets/images/rm_fc_flowchart_connecting_the_dots.jpg)
+
+[Download this flowchart in pdf](assets/media/rm_fc_flowchart_connecting_the_dots.pdf)
 
 ## Instructions for end users
 
