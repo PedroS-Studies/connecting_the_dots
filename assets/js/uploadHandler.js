@@ -1,0 +1,34 @@
+// uploadHandler.js
+// Listens for formReadyForUpload and posts to server endpoint /upload
+
+const UPLOAD_URL = '/upload';
+
+document.addEventListener('formReadyForUpload', async (e) => {
+  const data = e.detail;
+  try {
+    const fd = new FormData();
+    fd.append('category', data.category || '');
+    fd.append('filename', data.filename || '');
+    fd.append('title', data.title || '');
+    fd.append('tags', data.tags || '');
+    fd.append('link', data.link || '');
+    fd.append('shortDescription', data.shortDescription || '');
+    fd.append('fullText', data.fullText || '');
+
+    if (data.thumbnail) fd.append('thumbnail', data.thumbnail);
+    if (data.image) fd.append('image', data.image);
+    if (data.video) fd.append('video', data.video);
+    if (data.audio) fd.append('audio', data.audio);
+
+    const res = await fetch(UPLOAD_URL, { method: 'POST', body: fd });
+    if (!res.ok) {
+      const payload = await res.json().catch(()=>({}));
+      document.dispatchEvent(new CustomEvent('uploadFail', { detail: { message: payload.message || res.statusText } }));
+      return;
+    }
+    const payload = await res.json();
+    document.dispatchEvent(new CustomEvent('uploadSuccess', { detail: payload }));
+  } catch (err) {
+    document.dispatchEvent(new CustomEvent('uploadFail', { detail: { message: err.message } }));
+  }
+});
