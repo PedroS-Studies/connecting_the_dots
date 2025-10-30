@@ -108,6 +108,12 @@ The administrator should check all the preset views both in the normal and the a
 
 [Download this flowchart in pdf](assets/media/rm_fc_flowchart_connecting_the_dots.pdf)
 
+#### Admin UX
+
+##### Content assets upload
+
+The Admin can upload the necessary assets using a form, which validates the type of asset uploaded and indexes the information in a json file located in the same folder as the assets.
+
 ## Instructions for end users
 
 ### Set up by the admin
