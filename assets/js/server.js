@@ -1,6 +1,3 @@
-// server.js
-// Minimal but safe: accepts uploads, stores files in assets/content, appends metadata to contentAssetsDB.json
-
 const express = require('express');
 const multer = require('multer');
 const path = require('path');

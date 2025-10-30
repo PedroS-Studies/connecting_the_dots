@@ -1,6 +1,3 @@
-// formManager.js
-// Handles all validation and dynamic enable/disable logic per spec
-
 const els = {
   category: document.getElementById('category'),
   filename: document.getElementById('filename'),

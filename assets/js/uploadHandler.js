@@ -1,6 +1,3 @@
-// uploadHandler.js
-// Listens for formReadyForUpload and posts to server endpoint /upload
-
 const UPLOAD_URL = '/upload';
 
 document.addEventListener('formReadyForUpload', async (e) => {
