@@ -130,3 +130,5 @@ Due to occasional issues with the IDE on my Desktop computer, I have used my sec
 - MS Visio for Flowcharts
 - HTML
 - CSS
+- node.js
+- MS Copilot - deep thinking
