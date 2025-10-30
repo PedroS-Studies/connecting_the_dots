@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Asset Upload</title>
+  <style>
+    body { font-family: system-ui, Arial; max-width:900px; margin:24px auto; }
+    label { display:block; margin-top:12px; font-weight:600; }
+    input[type="text"], textarea, select { width:100%; padding:8px; box-sizing:border-box; }
+    input[type="file"] { margin-top:6px; }
+    .row { display:flex; gap:12px; }
+    .small { width:33%; }
+    .error { color:#b20000; font-size:0.95rem; }
+    .hint { color:#666; font-size:0.9rem; margin-top:8px; }
+    button { margin-top:16px; padding:10px 14px; }
+  </style>
+</head>
+<body>
+  <h1>Admin Asset Upload</h1>
+
+  <form id="assetForm" novalidate>
+    <label for="category">Category</label>
+    <select id="category" required>
+      <option value="">-select-</option>
+      <option value="fact sheet">fact sheet</option>
+      <option value="portfolio">portfolio</option>
+      <option value="moodboard">moodboard</option>
+      <option value="demo">demo</option>
+      <option value="general">general</option>
+    </select>
+    <div id="categoryError" class="error" aria-live="polite"></div>
+
+    <label for="filename">Filename (auto-lowercase, spaces→underscores)</label>
+    <input id="filename" type="text" maxlength="100" placeholder="Max 20 chars; transformed" disabled />
+    <div id="filenameError" class="error"></div>
+
+    <label for="title">Title</label>
+    <input id="title" type="text" maxlength="50" placeholder="Max 50 chars" disabled />
+    <div id="titleError" class="error"></div>
+
+    <label for="tags">Tags (letters, numbers, commas; max 250 chars)</label>
+    <input id="tags" type="text" maxlength="250" disabled />
+    <div id="tagsError" class="error"></div>
+
+    <label for="thumbnail">Thumbnail (jpg/png, ≤100 KB) — decorative only</label>
+    <input id="thumbnail" type="file" accept="image/png,image/jpeg" disabled />
+    <div id="thumbnailError" class="error"></div>
+
+    <div class="row">
+      <div class="small">
+        <label for="image">Image (jpg/jpeg/png)</label>
+        <input id="image" type="file" accept="image/png,image/jpeg,image/jpg" disabled />
+        <div id="imageError" class="error"></div>
+      </div>
+
+      <div class="small">
+        <label for="video">Video (mp4)</label>
+        <input id="video" type="file" accept="video/mp4" disabled />
+        <div id="videoError" class="error"></div>
+      </div>
+
+      <div class="small">
+        <label for="audio">Audio (mp3)</label>
+        <input id="audio" type="file" accept="audio/mp3,audio/mpeg" disabled />
+        <div id="audioError" class="error"></div>
+      </div>
+    </div>
+
+    <label for="link">Link (https URL)</label>
+    <input id="link" type="text" placeholder="https://example.com" disabled />
+    <div id="linkError" class="error"></div>
+
+    <label for="shortDescription">Short Description (max 100 chars)</label>
+    <input id="shortDescription" type="text" maxlength="100" disabled />
+    <div id="shortDescriptionError" class="error"></div>
+
+    <label for="fullText">Full Text (max 300 chars) — required if no audio/video/link</label>
+    <textarea id="fullText" maxlength="300" rows="4" disabled></textarea>
+    <div id="fullTextError" class="error"></div>
+
+    <div style="margin-top:18px;">
+      <button type="button" id="resetBtn">Reset</button>
+      <button type="button" id="uploadBtn">Upload</button>
+      <div id="submitMessage" class="hint"></div>
+    </div>
+  </form>
+
+  <script type="module" src="./formManager.js"></script>
+  <script type="module" src="./uploadHandler.js"></script>
+</body>
+</html>
