@@ -110,6 +110,10 @@ The administrator should check all the preset views both in the normal and the a
 
 #### Admin UX
 
+##### Admin setup page
+
+![Administrator's setup page wireframe](assets/images/rm_wf_admin_setup.png)
+
 ##### Content assets upload
 
 The Admin can upload the necessary assets using a form, which validates the type of asset uploaded and indexes the information in a json file located in the same folder as the assets.
