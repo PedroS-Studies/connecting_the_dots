@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin setup</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div id="login">
-    <h2>Enter your credentials</h2>
-    <p>(the password is "secret" - without quotes and all lower-case)</p>
-    <input type="password" id="pwdInput" placeholder="Password">
-    <button onclick="ctrlPwd()">Submit</button>
-    <p id="error"></p>
-  </div>
-   <div id="ctrlPanel"></div>
-    <h1>Settings</h1> 
-        <h2>The Presentation</h2>
-            <h3>Current pages</h3>
-                <!--Fetch table of existing pages here-->
-                <!--instert a button with link for adding new pages-->
-        <h2>Assets</h2>
-            <!--Fetch table of existing assets here-->
-            <a href="adminAssetsUpload.html" class="upload-button">Upload new asset</a>
-        <h2>UI themes</h2>
-            <!--Fetch table of existing themes here-->
-            <!--Insert a button with link for adding new themes-->
-        <h2>Candidate profile</h2>
-            <!--Display candidate profile information here-->
-            <!--insert a button for editing the candidate profile here-->
-        <h2>General Settings</h2>
-            <!--Add a link to the other settings-->
+        <h2>Enter your credentials</h2>
+        <p>(the password is "secret" - without quotes and all lower-case)</p>
+        <input type="password" id="pwdInput" placeholder="Password">
+        <button onclick="ctrlPwd()">Submit</button>
+        <p id="error"></p>
     </div>
-
+   <div id="ctrlPanel">
+        <h1>Settings</h1> 
+            <h2>The Presentation</h2>
+                <h3>Current pages</h3>
+                    <!--Fetch table of existing pages here-->
+                    <!--instert a button with link for adding new pages-->
+            <h2>Assets</h2>
+                <!--Fetch table of existing assets here-->
+                <a href="adminAssetsUpload.html" class="upload-button">Upload new asset</a>
+            <h2>UI themes</h2>
+                <!--Fetch table of existing themes here-->
+                <!--Insert a button with link for adding new themes-->
+            <h2>Candidate profile</h2>
+                <!--Display candidate profile information here-->
+                <!--insert a button for editing the candidate profile here-->
+            <h2>General Settings</h2>
+                <!--Add a link to the other settings-->
+    </div>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
