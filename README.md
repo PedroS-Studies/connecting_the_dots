@@ -100,6 +100,10 @@ Since the application is online, the quick changes of interface can also be done
 
 The administrator should check all the preset views both in the normal and the accessible set up.
 
+#### Admin setup page
+
+![Administrator's setup page wireframe](assets/images/rm_wf_admin_setup.png)
+
 ### General UX 
 
 #### Flowchart User's journey
@@ -109,10 +113,6 @@ The administrator should check all the preset views both in the normal and the a
 [Download this flowchart in pdf](assets/media/rm_fc_flowchart_connecting_the_dots.pdf)
 
 #### Admin UX
-
-##### Admin setup page
-
-![Administrator's setup page wireframe](assets/images/rm_wf_admin_setup.png)
 
 ##### Content assets upload
 
