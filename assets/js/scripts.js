@@ -6,6 +6,6 @@
         document.getElementById("login").style.display = "none";
         document.getElementById("ctrlPanel").style.display = "block";
       } else {
-        document.getElementById("error").textContent = "Incorrect password. Try again.";
+        document.getElementById("error").textContent = "Wrong password. Try again.";
       }
     }
