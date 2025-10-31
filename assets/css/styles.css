@@ -1,0 +1,8 @@
+/* Password check for admin-setup page */
+    #ctrlPanel { 
+        display: none; 
+    }
+    #login { 
+        text-align: center; 
+        margin-top: 20vh; 
+    }
