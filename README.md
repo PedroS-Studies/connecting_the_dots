@@ -141,6 +141,7 @@ Due to occasional issues with the IDE on my Desktop computer, I have used my sec
 - HTML
 - CSS
 - node.js
+- jQuery
 - MS Copilot - deep thinking
 
 ## Copyright
