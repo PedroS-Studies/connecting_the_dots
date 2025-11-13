@@ -27,7 +27,11 @@ However, several other features would benefit of TDD. Among others:
 
 ##### Cookie parsing
 
+The information collected by the cookie will need to be tested to understand if the data parsed will be univocal enough to be used in a relational database. 
+
 ##### Remote management
+
+The remote management allowing both the Admin and the Interviewee to adjust the UI to eventual change of circumstances should be tested to understand if the device used is capable of overriding any cachéed information loaded in memory.
 
 #### Global interface
 
