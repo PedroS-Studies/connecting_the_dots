@@ -118,6 +118,10 @@ The administrator should check all the preset views both in the normal and the a
 
 The Admin can upload the necessary assets using a form, which validates the type of asset uploaded and indexes the information in a json file located in the same folder as the assets.
 
+## Testing
+
+(See separate markdown document regarding testing)[TESTING.md]
+
 ## Instructions for end users
 
 ### Set up by the admin
