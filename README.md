@@ -120,7 +120,7 @@ The Admin can upload the necessary assets using a form, which validates the type
 
 ## Testing
 
-(See separate markdown document regarding testing)[TESTING.md]
+[See separate markdown document regarding testing](TESTING.md)
 
 ## Instructions for end users
 
