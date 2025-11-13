@@ -1,0 +1,23 @@
+{
+  "name": "connecting_the_dots",
+  "version": "1.0.0",
+  "description": "This Project is born from real life situation: I was looking at a job ad regarding Websites content manager for a hotel chain, and I found myself in front of a conundrum about my less than orthodox career path - combining hotel sales managment, artistic endeavours and development. I made my considerations and concluded that there was no way that I would manage to make any recruiter believe in me if they saw a résumé with all that missmatched information.",
+  "homepage": "https://github.com/PedroS-Studies/connecting_the_dots#readme",
+  "bugs": {
+    "url": "https://github.com/PedroS-Studies/connecting_the_dots/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroS-Studies/connecting_the_dots.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
